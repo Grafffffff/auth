@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log In</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="w-mercury-development.svg" alt="logo" class="logo__img">
+        </div>
+        <form class="authorization-form section">
+            <h3 class="section__title">Log In</h3>
+            <input
+                    name="email"
+                    type="email"
+                    class="authorization-form__input"
+                    placeholder="E-Mail">
+            <input
+                    name="password"
+                    type="password"
+                    class="authorization-form__input"
+                    placeholder="Password">
+            <span class="authorization-form__error hidden"></span>
+            <button type="button" class="authorization-form__btn button">Login</button>
+        </form>
+        <div class="profile section hidden">
+            <img src="" alt="photo" class="profile__photo">
+            <h3 class="profile__name"></h3>
+            <button type="button" class="authorization-form__btn button">Logout</button>
+        </div>
+    </div>
+
+    <script src="core.js" defer></script>
+</body>
+</html>
